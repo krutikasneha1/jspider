@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>facebook</title>
+	<style>
+		body
+		{
+			margin: 0px;
+			font-family: 'comic sans ms',sans-serif;
+		}
+		#nav
+		{
+          display: flex;
+          flex-direction: column;
+		}
+		#one h2
+		{
+			margin: 0px;
+			font-size: 35px;
+			color: white;
+			position:relative;
+			width:
+		}
+		 #one
+		{
+			display: flex;
+			padding: 15px;
+			justify-content: space-between;
+			background-color: blue;
+
+		}
+		#one input[type=text],input[type=password]
+		{
+			outline: none;
+			border: none;
+			padding: 5px;
+			box-shadow: 0 0 8px black;
+		}
+		button
+		{
+			padding: 5px;
+			border-radius: 6px;
+		}
+		label
+		{
+			color: white;
+		}
+		#two
+		{
+			margin: 100px 100px 200px 93px;
+			display: flex;
+			flex-direction: column;
+
+		}
+		h1
+		{
+			font-size: 85px;
+			margin: 0px;
+		}
+		#two p
+		{
+			margin: 0px;
+			font-size: 22px;
+
+		}
+		#three
+		{
+			margin: -415px 100px 200px 745px;
+			box-shadow: 0 0 4px black;
+			padding: 35px 35px;
+			border-radius: 0px 30px 0px 30px;
+			display: flex;
+			flex-direction: column;
+			position: relative;
+		}
+		#three h2,p
+		{
+			margin: 0px;
+		}
+		#three input[type=text],input[type=password],select
+		{
+			padding: 5px;
+			box-shadow: 0 0 25px black;
+			border:none;
+			outline: none;
+			
+		}
+		#three input[type=submit]
+		{
+			background-color: pink;
+			padding: 13px;
+			outline: none;
+			border: none;
+			box-shadow: 0 0 15px black;
+			margin-top: 10px;
+			
+
+		}
+		footer
+		{
+			background-color:blue;
+			text-align: center;
+			padding:21px;
+			color: white;
+		}
+		@media(max-width: 700px)
+		{
+		#one
+		{
+			flex-direction:column;
+		}
+		#frm
+		{
+			margin-top: 13px;
+		}
+	}
+	@media(max-width: 700px)
+	{
+	#nav
+	{
+
+		flex-direction: column;
+	}
+	#two
+	{
+		margin-top: 8px;
+	}
+	#three
+	{
+		flex-direction: column;
+		margin-left: 20px;
+		margin-top:-165px;
+	}
+}
+</style>
+</head>
+<body>
+	<nav id="one">
+<h2>facebook</h2>
+<div>
+	<form id="frm">
+	<label>Login</label>
+	<input type="text" placeholder="Enter username">
+	<label>Password</label>
+	<input type="Password" placeholder="Enter Password">
+	<button>Login</button>
+</form>
+</div>
+</nav>
+<div id="nav">
+<div id="two">
+	<h1 style="color: royalblue">facebook</h1>
+	<p>connect with friends and the world <br>around you on facebook.</p>
+</div>
+<div id="three">
+	<h2>Sign Up</h2>
+	<p>it's quick and easy</p>
+	<form>
+		<table>
+			<tr>
+				<td><input type="text" placeholder="Enter First Name"></td>
+				<td><input type="text" placeholder="Enter Last Name"></td>
+			</tr>
+			<tr>
+				<td><input type="text" placeholder="Enter Mobile No Or E-mail Address"></td>
+			</tr>
+			<tr>
+				<td><input type="password" placeholder="New Password"></td>
+			</tr>
+			<tr>
+				<td><label style="color: black">Date of Birth?</label></td>
+			</tr>
+			<tr>
+				<td><select>
+					<option>01</option>
+					<option>02</option>
+					<option>03</option>
+					<option>04</option>
+					<option>05</option>
+					<option>06</option>
+					<option>07</option>
+					<option>08</option>
+					<option>09</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					<option>13</option>
+					<option>14</option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+					<option>18</option>
+					<option>19</option>
+				</select></td>
+				<td>
+					<select>
+					<option>Jan</option>
+					<option>Feb</option>
+					<option>Mar</option>
+					<option>Apr</option>
+					<option>May</option>
+					<option>Jun</option>
+					<option>Jul</option>
+					<option>Aug</option>
+					<option>Sep</option>
+					<option>Oct</option>
+					<option>Nov</option>
+					<option>Dec</option>
+					</select>
+				</td>
+				<td>
+					<select>
+					<option>1990</option>
+					<option>1991</option>
+					<option>1992</option>
+					<option>1993</option>
+					<option>1994</option>
+					<option>1995</option>
+					<option>1996</option>
+					<option>1997</option>
+					<option>1998</option>
+					<option>1999</option>
+					<option>2000</option>
+					<option>2001</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label style="color: black">Gender?</label></td>
+			</tr>
+			<tr>
+			<td><input type="radio" name="r1">Female</td>
+			<td><input type="radio" name="r1">Male</td>
+			
+			</tr>
+		</table>
+		
+		<table align="center">
+		<tr>
+			<td><input type="submit" value="Sign Up"></td>
+		</tr>
+	</table>
+	</form>
+</div>
+</div>
+<footer>copyRight:&copy;2021 by avik </footer>
+</body>
+</html>
